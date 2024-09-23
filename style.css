@@ -8,11 +8,15 @@ font-weight:400;
 }
 
 /*banner name at top*/
-h1 {
+#name {
 font-size:3em;
 text-transform:uppercase;
 text-align:center;
 color:#33485e;
+border-bottom: 1px solid #33485e;
+width: 60%;
+margin: 0 auto;
+
 }
 
 /*title*/
@@ -23,32 +27,35 @@ font-size:1.5em;
 }
 
 /*section titles*/
-h2{
+#sectionheader {
 font-size:1.5em;
 text-transform:uppercase;
 background-color:#33485e;
 color: #fff;
+margin:20px 0 10px 0;
+min-width: 300px;
 }
 
 /*job titles*/
-h3{
+#jobtitle {
 font-weight: bolder;
 font-weight: 600;
 font-size:1.5em;
 }
 
 /*job organization*/
-h4{
+#organization {
 font-weight:400;
 font-weight:bold;
-font-size: 1em;
+font-size: 1.25em;
 }
 
 /*job dates*/
-h5{
+#date {
 font-weight:400;
 font-style: italic;
 font-size:1em;
+margin: 2px 0 0 0;
 }
 
 /*links*/
@@ -61,4 +68,47 @@ li {
 font-size: 1em;
 }
 
+#description {
+margin:10px 0;
+}
+
+#menu {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+#menu li {
+display:inline;
+}
+
+#degrees {
+margin: 5px 0 0 0;  
+}
+
+#do {
+margin: 5px 0 0 0;   
+}
+
+#title {
+font-weight: 600;
+text-align: center;
+margin: 20px 0 0 0;
+text-transform: uppercase;
+font-size:1.25em;
+}
+
+#top {
+min-width: 300px;
+width: 60%;
+margin:0 auto 30px auto;
+text-align: center;
+}
+
+#container{
+width:100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-bottom: 50px;
+}
 
