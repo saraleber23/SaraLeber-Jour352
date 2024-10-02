@@ -1,44 +1,114 @@
+/*Styles for my resume*/
 
-
-
-@font-face {
-    font-family: 'Special Elite';
-    src: url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap")
+BODY {
+font-family: "Open Sans", arial, sans-serif;
+font-size: 1em;
+color: #444;
+font-weight:400;
 }
 
+/*banner name at top*/
+#name {
+font-size:3em;
+text-transform:uppercase;
+text-align:center;
+color:#33485e;
+border-bottom: 1px solid #33485e;
+width: 60%;
+margin: 0 auto;
 
-  
-  h1 {
-  font-family: 'Special Elite', system-ui;
-    font-weight: 400;
-    font-style: normal;
-   
 }
 
-h2 {
-    font-family: 'Special Elite', system-ui;
-      font-weight: 400;
-      font-style: normal;
-     
-  }
-
-  h3 {
-    font-family: 'Special Elite', system-ui;
-      font-weight: 400;
-      font-style: normal;
-     
-  }
-
-  .btn {
-    font-family: 'Special Elite', system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.navbar-brand {
-    font-family: 'Special Elite', system-ui;
-    font-weight: 400;
-    font-style: normal;
+/*title*/
+strong {
+color:#33485e;
+text-transform:uppercase;
+font-size:1.5em;
 }
 
+/*section titles*/
+#sectionheader {
+font-size:1.5em;
+text-transform:uppercase;
+background-color:#33485e;
+color: #fff;
+margin:20px 0 10px 0;
+min-width: 300px;
+}
+
+/*job titles*/
+#jobtitle {
+font-weight: bolder;
+font-weight: 600;
+font-size:1.5em;
+}
+
+/*job organization*/
+#organization {
+font-weight:400;
+font-weight:bold;
+font-size: 1.25em;
+}
+
+/*job dates*/
+#date {
+font-weight:400;
+font-style: italic;
+font-size:1em;
+margin: 2px 0 0 0;
+}
+
+/*links*/
+a:link {
+font-size: 1em;
+}
+
+/*lists*/
+li {
+font-size: 1em;
+}
+
+#description {
+margin:10px 0;
+}
+
+#menu {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+#menu li {
+display:inline;
+}
+
+#degrees {
+margin: 5px 0 0 0;  
+}
+
+#do {
+margin: 5px 0 0 0;   
+}
+
+#title {
+font-weight: 600;
+text-align: center;
+margin: 20px 0 0 0;
+text-transform: uppercase;
+font-size:1.25em;
+}
+
+#top {
+min-width: 300px;
+width: 60%;
+margin:0 auto 30px auto;
+text-align: center;
+}
+
+#container{
+width:100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-bottom: 50px;
+}
 
