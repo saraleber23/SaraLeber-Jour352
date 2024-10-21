@@ -9,54 +9,66 @@ font-weight:400;
 
 /*banner name at top*/
 #name {
-font-size:3em;
-text-transform:uppercase;
+font-size:2em;
+text-transform: uppercase;
 text-align:center;
 color:#33485e;
-border-bottom: 1px solid #33485e;
-width: 60%;
+border-bottom: 1px solid ;
+width: 50%;
 margin: 0 auto;
-
+color: #8D83F4;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*title*/
-strong {
-color:#33485e;
+#title {
+font-size:2em;
+color:#8a79bd;
 text-transform:uppercase;
-font-size:1.5em;
+
 }
 
 /*section titles*/
 #sectionheader {
-font-size:1.5em;
+font-size:3em;
 text-transform:uppercase;
-background-color:#33485e;
-color: #fff;
+background-color:rgb(20, 20, 20);
+color: #8a79bd;
 margin:20px 0 10px 0;
 min-width: 300px;
-}
+padding: 5px 20px; 
+text-align: center;
 
+
+
+}
 /*job titles*/
 #jobtitle {
+text-align: center;
 font-weight: bolder;
 font-weight: 600;
-font-size:1.5em;
+font-size:2em;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 /*job organization*/
 #organization {
-font-weight:400;
-font-weight:bold;
+text-align: center;
 font-size: 1.25em;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /*job dates*/
 #date {
+text-align: center;
 font-weight:400;
 font-style: italic;
-font-size:1em;
+font-size:1.1em;
 margin: 2px 0 0 0;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 /*links*/
 a:link {
@@ -70,6 +82,10 @@ font-size: 1em;
 
 #description {
 margin:10px 0;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-size: 1.25em;
+
 }
 
 #menu {
