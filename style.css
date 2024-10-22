@@ -9,12 +9,12 @@ font-weight:400;
 
 /*banner name at top*/
 #name {
-font-size:1em;
+font-size:2.25em;
 text-transform: uppercase;
 text-align:center;
 color:#33485e;
 border-bottom: 1px solid ;
-width: 50%;
+width: 75%;
 margin: 0 auto;
 color: #8D83F4;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
