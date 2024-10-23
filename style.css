@@ -131,3 +131,14 @@ margin: 0 auto;
 padding-bottom: 50px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #333;
+  }
