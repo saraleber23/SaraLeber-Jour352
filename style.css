@@ -1,7 +1,7 @@
 /*Styles for my resume*/
 
 BODY {
-font-family: "Open Sans", arial, sans-serif;
+font-family: Impact;
 font-size: 1em;
 color: #444;
 font-weight:400;
@@ -17,7 +17,7 @@ border-bottom: 1px solid ;
 width: 75%;
 margin: 0 auto;
 color: #8D83F4;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: Cambria ;
 }
 
 /*title*/
@@ -38,7 +38,7 @@ min-width: 300px;
 padding: 5px 20px; 
 text-align: center;
 font-size:2.75em;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:Impact;
 
 
 
@@ -49,7 +49,7 @@ text-align: center;
 font-weight: bolder;
 font-weight: 600;
 font-size:2.5em;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:Impact;
 
 }
 
@@ -57,7 +57,7 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 #organization {
 text-align: center;
 font-size: 1.25em;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:Impact;
 }
 
 /*job dates*/
@@ -67,7 +67,7 @@ font-weight:400;
 font-style: italic;
 font-size:1.1em;
 margin: 2px 0 0 0;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:Impact;
 }
 
 
@@ -83,7 +83,7 @@ font-size: 1em;
 
 #description {
 margin:10px 0;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:Impact;
 text-align: center;
 font-size: 1.25em;
 
@@ -142,3 +142,28 @@ footer {
     margin: 0;
     color: #333;
   }
+
+  /* Very small devices (up to 500px) */
+@media (max-width: 500px) {
+    
+}
+
+/* Small devices  (500px and up) */
+@media (min-width: 500px) {
+    
+}
+
+/* Medium sized devices (700px and up) */
+@media (min-width: 700px) {
+  
+}
+
+/* Large devices (900px and up) */
+@media (min-width: 900px) {
+    
+}
+
+/* Extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+   
+}
